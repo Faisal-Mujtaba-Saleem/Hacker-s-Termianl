@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker's Terminal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: whitesmoke;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            /* Align items to the top */
+            align-items: center;
+            background-color: #008000;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .hackerTerminal {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .hackingMessageContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .hackingPara {
+            width: 70%;
+            text-align: center;
+            word-break: break-all;
+        }
+
+        .dotsSpan {
+            display: inline-block;
+            word-break: break-all;
+            text-align: left;
+            width: 5%;
+            padding: 0 0.5em;
+        }
+
+        .happHacking {
+            padding: 0 0.5em;
+        }
+
+        .animate-dots {
+            animation: dots 1s infinite;
+        }
+
+        @keyframes dots {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .hackingPara {
+                width: 90%;
+            }
+
+            .dotsSpan {
+                width: 15%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>** Hacker's Terminal **</h1>
+        <section class="hackerTerminal">
+            <!-- <div class="hackingMessageContainer">
+                <p class="hackingPara">Initializing Hacking <span class="dotsSpan">...</span></p>
+            </div>
+            <div class="hackingMessageContainer">
+                <p class="hackingPara">Reading your Files <span class="dotsSpan">...</span></p>
+            </div>
+            <div class="hackingMessageContainer">
+                <p class="hackingPara">Password files Detected <span class="dotsSpan">...</span></p>
+            </div>
+            <div class="hackingMessageContainer">
+                <p class="hackingPara">Sending all passwords and personal files to server <span
+                        class="dotsSpan">...</span>
+                </p>
+            </div>
+            <div class="hackingMessageContainer">
+                <p class="hackingPara">Cleaning up <span class="dotsSpan">...</span></p>
+            </div> -->
+        </section>
+    </div>
+
+    <script src="Async_Await.js"></script>
+</body>
+
+</html>

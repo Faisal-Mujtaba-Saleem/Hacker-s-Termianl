@@ -1,0 +1,17 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any compiled files
+*.min.js
+*.min.css
+
+# Ignore any backup files
+*~
+*.bak
+
+# Ignore any log files
+*.log
+
+# Ignore any OS-generated files
+.DS_Store
+Thumbs.db
